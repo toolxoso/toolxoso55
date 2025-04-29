@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Dịch Vụ</title>
+    <style>
+        body {
+            background-color: black; /* Nền đen */
+            color: white; /* Màu chữ mặc định là trắng */
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Căn giữa theo chiều ngang */
+            justify-content: center; /* Căn giữa theo chiều dọc */
+            height: 100vh; /* Chiều cao bằng 100% viewport */
+            margin: 0; /* Loại bỏ margin mặc định của body */
+        }
+        .red-text {
+            color: red; /* Màu chữ đỏ */
+            font-size: 24px; /* Kích thước chữ lớn hơn */
+        }
+        .green-text {
+            color: lime; /* Màu chữ xanh lá */
+            font-size: 20px; /* Kích thước chữ nhỏ hơn */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="red-text">Dịch vụ đang được phát triển</div>
+    <div class="green-text">HTeam Service</div>
+
+</body>
+</html>
